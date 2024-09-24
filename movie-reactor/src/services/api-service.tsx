@@ -41,7 +41,7 @@ export default function ApiService() {
   };
 
   useEffect(() => {
-    let timer: ReturnType<typeof setTimeout>;
+    let timer: any;
     if (error) {
       timer = setTimeout(() => {
         setError(null);
