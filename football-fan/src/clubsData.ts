@@ -92,7 +92,7 @@ export const clubs = [
         name: "Bayern Munich",
         city: "Munich",
         founded: 1900,
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/640px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/300px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
         achievements: ["32 Bundesliga titles", "6 UEFA Champions League titles"],
         squad: [
             { name: "Robert Lewandowski", position: "Forward" },
@@ -118,7 +118,7 @@ export const clubs = [
         name: "Juventus",
         city: "Turin",
         founded: 1897,
-        logo: "https://upload.wikimedia.org/wikipedia/en/2/2d/Juventus_FC_2017_logo.svg",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg/237px-Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg.png",
         achievements: ["36 Serie A titles", "2 UEFA Champions League titles"],
         squad: [
             { name: "Cristiano Ronaldo", position: "Forward" },
@@ -144,7 +144,7 @@ export const clubs = [
         name: "Atletico Madrid",
         city: "Madrid",
         founded: 1903,
-        logo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
+        logo: "https://upload.wikimedia.org/wikipedia/ru/thumb/0/01/FC_Atletico_Madrid_Logo.svg/292px-FC_Atletico_Madrid_Logo.svg.png",
         achievements: ["11 La Liga titles", "3 UEFA Europa League titles"],
         squad: [
             { name: "Luis Suárez", position: "Forward" },
@@ -157,7 +157,7 @@ export const clubs = [
         name: "Inter Milan",
         city: "Milan",
         founded: 1908,
-        logo: "https://upload.wikimedia.org/wikipedia/en/0/05/Inter_Milan.svg",
+        logo: "https://upload.wikimedia.org/wikipedia/uk/thumb/4/4d/FCInterMilan2021.png/285px-FCInterMilan2021.png",
         achievements: ["19 Serie A titles", "3 UEFA Champions League titles"],
         squad: [
             { name: "Romelu Lukaku", position: "Forward" },

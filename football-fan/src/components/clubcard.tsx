@@ -16,7 +16,15 @@ const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
     "
     >
       <h2>{club.name}</h2>
-      <img src={club.logo} alt={club.name} width="100" />
+      <img
+        src={club.logo}
+        alt={club.name}
+        className="
+                  h-[200px] w-[200px] 
+                  mx-auto object-contain
+                  border-2 border-white rounded-full p-4
+                  "
+      />
       <p>
         <strong>City:</strong> {club.city}
       </p>
