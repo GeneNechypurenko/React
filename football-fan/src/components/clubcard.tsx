@@ -20,9 +20,9 @@ const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
         src={club.logo}
         alt={club.name}
         className="
-                  h-[200px] w-[200px] 
+                  h-[180px] w-[180px] 
                   mx-auto object-contain
-                  border-2 border-white rounded-full p-4
+                  bg-white rounded-3xl p-4 border-2 border-black
                   "
       />
       <p>
