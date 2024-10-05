@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  user-select: none;
+  background: linear-gradient(90deg, #252525, #191970);
+}
+
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  margin-top: 45px;
+}
+
+#img-wrapper {
+  background: url("https://spaces.profoundjs.com/ide/bernice/magic-8-ball-app/public/8-Ball.png");
+  background-repeat: none;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  display: block;
+}
+
+#response {
+  margin-top: 155px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Verdana", sans-serif;
+  font-size: 10px;
+  max-width: 156px;
+}
